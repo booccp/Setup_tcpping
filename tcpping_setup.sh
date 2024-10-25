@@ -17,7 +17,7 @@ fi
 
 # 检查是否已安装tcpping
 if command -v tcpping &> /dev/null; then
-  green_echo "tcpping已安装。"
+  green_echo "tcpping已安装过，退出脚本。"
   exit 0
 fi
 
