@@ -45,7 +45,7 @@ fi
 
 # 下载tcpping脚本
 green_echo "正在下载tcpping脚本..."
-wget -O /tmp/tcpping https://raw.githubusercontent.com/deajan/tcpping/master/tcpping &> /dev/null
+wget -O /tmp/tcpping https://mirror.ghproxy.com/https://raw.githubusercontent.com/deajan/tcpping/master/tcpping &> /dev/null
 if [ $? -ne 0 ]; then
   red_echo "下载tcpping脚本失败。"
   exit 1
